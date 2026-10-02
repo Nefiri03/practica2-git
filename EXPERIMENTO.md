@@ -1,22 +1,22 @@
 # Práctica 2. Uso avanzado de .gitignore y .gitignore_global en Git
 
 ## Comprueba la configuración de tu archivo global.
-![Comprobación global](Captura\ desde\ 2026-10-02\ 10-53-00.png)
+![Comprobación global](Captura desde 2026-10-02 10-53-00.png)
 
 ## Explora los efectos de .gitignore_global:
-![Efectos global](Captura\ desde\ 2026-10-02\ 11-11-09.png)
+![Efectos global](Captura desde 2026-10-02 11-11-09.png)
 
 **Qué patrones he probado y cómo han funcionado:**
 He probado patrones generales con comodines (`*.o`, `*.log`, `*.zip`) y el archivo `.DS_Store` en mi archivo `.gitignore_global`. Al crear estos archivos de prueba en el repositorio y ejecutar `git status`, Git no los detecta, confirmando que el árbol de trabajo se mantiene limpio porque estos tipos de archivos han sido ignorados exitosamente a nivel global.
 
 ## Explora los efectos de .gitignore local:
-![Efectos local](proyecto1/2026-10-02\ 11-57-28.png)
+![Efectos local](Captura desde 2026-10-02 11-57-28.png)
 
 **Qué patrones he probado y cómo han funcionado:**
 Creamos la estructura de carpetas `dir1`, `dir2`, `dir3` y sus archivos para poner a prueba el `.gitignore` local. 
 
 ## Prueba el operador "!" para excluir archivos del ignore.
-![Prueba operador](Captura\ desde\ 2026-10-02\ 12-51-21.png)
+![Prueba operador](Captura desde 2026-10-02 12-51-21.png)
 
 **Qué patrones he probado y cómo han funcionado:**
 Se configuraron las reglas locales:
